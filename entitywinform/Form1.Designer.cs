@@ -84,6 +84,7 @@
             this.usuario1DataGridViewTextBoxColumn,
             this.passwordDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.usuarioBindingSource;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dataGridView1.Location = new System.Drawing.Point(12, 147);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
